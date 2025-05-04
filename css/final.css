@@ -1,0 +1,586 @@
+*:not(ul,ol){
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    background-color: gray;
+    height: 85px;
+}
+
+.nav_div{
+    width: 5%;
+    display: inline;
+    height: 20px;
+    
+}
+
+.li_div{
+    width: 50%;
+    height: 20px;
+    display: inline;
+    
+}
+
+.navbar img{
+    margin: 0%;
+    width: 8%;
+    margin-top: 13px;
+    margin-left: 65px;
+    
+}
+
+.navbar .navbar-list{
+    width: 50%;
+    padding: 5px 0 15px;
+    float: right;
+    vertical-align: top;
+    margin-top: 23px;
+    margin-right: 10px;
+    width: 40%;
+    
+    
+    
+}
+
+.navbar .navbar-list li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 10PX;
+    font-size: 19PX;
+    font-weight: lighter;
+    
+}
+
+.navbar .navbar-list li a{
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+.navbar .navbar-list li a:hover{
+    color: rgb(0, 171, 228);
+}
+
+p span{
+    color: rgb(0, 171, 228); ;
+}
+
+.sec2{
+    text-align: center;
+    
+}
+
+.sec2 img{
+    
+    height: 83%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sec2 .btn1 {
+    position: absolute;
+    top: 36%;
+    left: 45%;
+    width: 130px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    border-width: 0.7px;
+    cursor: pointer;
+    border-radius: 33px;
+    
+}
+
+.sec2 button:hover{
+    color: rgb(0, 171, 228);
+    background-color: transparent;
+}
+
+.sec2 .p1 {
+    position: absolute;
+    top: 17%;
+    left: 25%;
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.sec2 .p2 {
+    position: absolute;
+    top: 26%;
+    left: 40%;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+i{
+    color: rgb(0, 150, 200);
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.sec3{
+    display: flex;
+    padding: 100px 100px ;
+    gap: 50px;
+}
+
+.sec3 .p3{
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+.sec3 p{
+    font-size: 18px;
+    padding-bottom: 10px;
+    color: rgba(128, 128, 128, 0.692);
+}
+
+
+.sec3 h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: rgb(0, 171, 228);
+}
+.sec4{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sec4 p{
+    font-size: 18px;
+    width: 58%;
+    margin-left: 21%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: rgba(128, 128, 128, 0.692);
+}
+
+.sec4 h2{
+    font-size: 70px;
+}
+
+.sec4 img{
+    width: 30%;
+    padding: 1.57%;
+    
+}
+
+.sec4 img:hover {
+    opacity: 0.6;
+}
+
+.sec5{
+    background-color: black;
+    color: white;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-top: 60px;
+}
+
+.sec5 .div1{
+    margin-top: 30px;
+    margin-left: 70px;
+    padding: 20px; 
+    padding-left: 30px;
+    padding-right: 0; 
+    
+}
+
+.sec5 h3 i{
+    font-size: 30px;
+}
+
+.sec5 h3 {
+    font-size: 30px;
+}
+
+.sec5 p{
+    font-size: 22px;
+    color: gray;
+    padding: 15px 0;
+}
+
+.sec5 a{
+    color: white;
+    font-size: 18px;
+}
+
+.sec5 .div2{
+    margin-top: 30px;
+    padding-left: 0;
+    padding: 20px; 
+    margin-right: 60px;  
+}
+
+.sec5 .div3{
+    
+    margin: 0;
+    padding: 20px;
+    width: 300px;   
+}
+
+.sec5 img{
+    width: 580px;
+    padding: 25px;
+    
+}
+
+.sec6{
+    text-align: center;
+}
+
+.sec6 h1{
+    font-size: 60px;
+    padding: 120px 0 30px;
+}
+.sec6 p{
+    font-size: 25px;
+    padding: 0 25%;
+    width: 50%;
+    color: gray;
+}
+
+.sec6 img{
+    border-radius: 50%;
+    width: 60px;
+    margin-left: 43%;
+    margin-top: 40px;
+}
+
+.sec6 .div4{
+    display: flex;
+    
+}
+.sec6 .div4 p{
+    padding: 60px 0 0 0;
+    width: 160px;
+    font-size: 20px;
+}
+
+.sec7 h1{
+    font-size: 60px;
+    padding: 120px 0 50px;
+    text-align: center;
+}
+
+.sec8{
+    display: inline-flex;
+}
+
+.sec8 div div{
+    width: 74%;
+    margin-left: 26%;
+    margin-bottom: 120px;
+
+}
+
+.sec8 p{
+    padding-bottom: 23px;
+    color: gray;
+    font-size: 22px;
+}
+
+.sec8 h2{
+    font-size: 30px;
+    padding-bottom: 17px;
+    margin-left:-15% ;
+}
+
+.sec8 i{
+    
+    font-size: 40px;
+}
+
+.sec8 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 171, 228);
+}
+
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    margin-left: 6%;
+}
+
+.about .head h1{
+    font-size: 70px;
+    padding-bottom: 17px;
+}
+
+.about .head p{
+    font-size: 25px;
+    padding-bottom: 17px;
+    color: gray;
+    width: 100%;
+}
+
+.about div img{
+    width: 80%;
+    margin-left: 20px;
+}
+
+.about .foot{
+    display: flex;
+    gap: 140px;
+}
+
+.about .foot h2{
+    color: gray;
+    padding-bottom: 15px;
+}
+
+.about .foot p{
+    color: gray;
+    padding-bottom: 15px;
+    line-height: 25px;
+    font-size: 20px;
+    width: 250px;
+}
+
+.about i{
+    margin: 35px 0 20;
+    font-size: 40px;
+}
+
+.about a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(0, 171, 228);
+}
+
+.sec9 h1{
+    text-align: center;
+    font-size: 70px;
+    padding: 120px 0 50px;
+}
+
+.sec9 img{
+    border-radius: 50%;
+    width: 170px;
+    margin-bottom: 50px;
+}
+
+.sec9 .team{
+    text-align: center;
+    display: flex;
+}
+
+.sec9 .team .pc1{
+    height: 160px;
+    margin-bottom: 65px;
+}
+
+.sec9 .team .pc3{
+    height: 160px;
+}
+
+.sec9 .team h2{
+    color: gray;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+.sec9 .team p{ 
+    color: gray; 
+    text-align: left;
+    width:70% ; 
+    margin-left: 20%;
+    font-size:20px; 
+    padding-bottom: 20px;
+}
+
+.sec9 .team i{ 
+    color: gray; 
+    font-size: 25px;
+    margin-bottom: 170px;
+     
+}
+
+.register{
+    background-color: rgb(234, 220, 224);
+    justify-content: center;
+    padding: 100px 0 ;
+    
+}
+
+.register h1{
+    text-align: center;
+    font-size: 60px;
+}
+
+.register h2{
+    padding: 50pX 10px;
+}
+    
+
+
+.div5{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 50pX 30px;
+    
+}
+
+
+.div5 .name {
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    border-width:0.1px;
+    border-style: solid;
+    
+    
+}
+
+.div5 .div6{
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between;
+    
+}
+
+.div5 .div6 div{
+    width: 45%;
+
+    
+}
+
+.div5 .sub {
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    border-width:0.1px;
+    border-style: solid;
+}
+
+.div5 .msg {
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+    border-width:0.1px;
+    border-style: solid;
+
+}
+
+.div5 input[type="email"] {
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    border-width:0.1px;
+    border-style: solid;
+}
+
+
+.div5 input[type="submit"] {
+    display: block;
+    margin: auto;
+    width: 20%;
+    height: 35px;
+    border-radius: 20px;
+    border-width:0.1px;
+    border-style: solid;
+    background-color: rgb(0, 171, 228);
+    height: 50px;
+    color: white;
+    border: none;
+}
+
+.div5 input{
+    padding: 10px;
+
+}
+
+.div5 textarea{
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+
+}
+
+.final{
+    background-color: rgb(68, 68, 68);
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    
+}
+
+.final .div7{
+    width: 20%;
+    padding: 20px 140px 0 200px;
+}
+
+.final .div8{
+    width: 15%;
+    padding-top: 20px;
+}
+
+.final .div9{
+    width: 17%;
+    padding-top: 20px;
+}
+
+.final .div10{
+    width: 20%;
+    padding-top: 20px;
+}
+
+.final input[type="email"] {
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    border-width:0.1px;
+    border-style: solid;
+}
+
+
+.final input[type="submit"] {
+    display: block;
+    margin: auto;
+    width: 24%;
+    margin-top: 15px;
+    border-radius: 20px;
+    border-width:0.1px;
+    border-style: solid;
+    background-color: rgb(0, 171, 228);
+    height: 30px;
+    color: white;
+    border: none;
+}
+
+.final h2{
+    color: white;
+    padding-bottom: 15px;
+}
+
+.final p{
+    color: gray;
+
+}
+
+.final .p4{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.final i{
+    color: gray;
+    padding-right: 20px;
+}
+
+.final .div10 ::placeholder{
+    padding: 10px;
+}
